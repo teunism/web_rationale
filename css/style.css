@@ -1,0 +1,423 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Regular.otf");
+}
+
+@font-face {
+    font-family: "InterBold";
+    src: url("../fonts/Inter-Bold.otf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsBold";
+    src: url("../fonts/Poppins-Bold.ttf");
+}
+
+::selection {
+    background: #43BC7A;
+    color: white
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 6em 0em 4em 0em;
+}
+
+header img {
+    margin-left: 11%;
+    width: 5%;
+}
+
+header nav {
+    margin-right: 15%;
+    width: 12.5%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+header nav ul li {
+    font-family: "InterBold", sans-serif;
+    font-size: 12px;
+    text-transform: lowercase;
+    color: #545454;
+    cursor: pointer;
+    transition: .5s;
+}
+
+header nav ul li:hover {
+    color: #AAAAAA;
+    | transition: .5s;
+}
+
+
+
+
+article {
+    width: 100%;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: "PoppinsBold", sans-serif;
+    font-size: 3.2em;
+    margin-bottom: 0em;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: "PoppinsBold", sans-serif;
+    font-size: 2.8em;
+    margin-bottom: 0em;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 1.1em;
+    line-height: 180%;
+    width: 40%;
+    margin: .5em 0em 1em 0em;
+}
+
+
+.slide1 {
+    background-color: #000000;
+    display: flex;
+}
+
+.slide1 picture {
+    width: 75%;
+    margin-left: 4%;
+}
+
+.slide1 picture img {
+    width: 100%;
+}
+
+.slide1 div {
+    position: relative;
+    top: 5em;
+    left: -12em;
+}
+
+
+
+
+
+
+.slide2 {
+    background: #222222;
+    /* stylo1 */
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.25), inset 0px -20px 30px rgba(0, 0, 0, 0.8);
+    border-radius: 130px;
+    position: relative;
+    top: -18em;
+    box-sizing: border-box;
+    padding-bottom: 10em;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.slide2 div {
+    width: 25%;
+    margin-left: 8%;
+}
+
+.slide2 p {
+    width: 80%;
+    margin-bottom: 3em;
+}
+
+.slide2 ul {
+    width: 100%;
+
+}
+
+.slide2 ul li {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3vw;
+    color: #43BC7A;
+    padding: .6em 0em .6em 1em;
+    margin-bottom: 1em;
+    background: #FCFCFC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px -4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    align-items: center;
+    position: relative;
+    z-index: 20;
+}
+
+.slide2 ul li:nth-child(1) {
+    width: 90%;
+}
+
+.slide2 ul li:nth-child(2) {
+    width: 75%;
+}
+
+.slide2 ul li:nth-child(3) {
+    width: 120%;
+}
+
+.slide2 img {
+    width: 60%;
+    position: relative;
+    top: -15vw;
+    left: -5em;
+}
+
+
+
+
+
+
+.slide3 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.25), inset 0px -20px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 130px;
+
+    position: relative;
+    top: -35em;
+    z-index: -10;
+
+    padding-bottom: 4em;
+}
+
+.slide3 > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    justify-content: flex-end;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 15em;
+
+    padding-bottom: 20em;
+}
+
+.slide3 img {
+    width: 90%;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#wit {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.0);
+}
+
+#mockupHome {
+    position: absolute;
+    z-index: 10;
+    width: 30%;
+    margin-top: -20%;
+    left: 7%;
+}
+
+h3 {
+    font-family: "PoppinsBold", sans-serif;
+    margin-bottom: 0;
+    font-size: 1.4em;
+}
+
+.slide3 p {
+    width: 80%;
+    color: #222222;
+    font-size: 1em;
+}
+
+.slide4 {
+    background: #43BC7A;
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.25), inset 0px -20px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 130px;
+
+    position: relative;
+    top: -50em;
+    z-index: -20;
+    padding-top: 25em;
+    padding-bottom: 12em;
+}
+
+.slide4 > div {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.slide4 p {
+    width: 80%;
+}
+
+#mockupSaved {
+    position: absolute;
+    z-index: 10;
+    width: 30%;
+    margin-top: -25%;
+    right: 8.5%;
+}
+
+.slide5 {
+    background-color: #FFFFFF;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.25), inset 0px -20px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 130px;
+
+    position: relative;
+    top: -65em;
+    z-index: -30;
+    padding-top: 20em;
+    padding-bottom: 10em;
+
+}
+
+.slide5 > div {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.slide5 h2 {
+    color: #000000
+}
+
+.slide5 p {
+    color: #222222;
+    width: 80%;
+}
+
+.slide5 img {
+    width: 100%;
+}
+
+#mockupFood {
+    position: absolute;
+    z-index: 10;
+    width: 30%;
+    margin-top: -55%;
+    right: 35%;
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    top: -80em;
+    z-index: -40;
+}
+
+footer img {
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1700px) {
+    p {
+        font-size: 1em;
+    }
+
+    .slide4 {
+        padding-top: 22em;
+    }
+
+    #mockupFood {
+        position: absolute;
+        z-index: 10;
+        width: 30%;
+        margin-top: -70%;
+        right: 36%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .slide2 img {
+        top: -8vw;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p,
+    .slide3 p {
+        font-size: .8em;
+        width: 100%;
+    }
+
+    .slide2 {
+        padding-top: 3em;
+    }
+
+    .slide2 img {
+        width: 50%;
+        top: -10vw;
+        left: -5em;
+    }
+
+    .slide4 {
+        padding-top: 17em;
+        padding-bottom: 3em;
+    }
+
+    #mockupHome {
+        margin-top: -30%;
+    }
+
+    #mockupFood {
+        margin-top: -85%;
+        right: 34%;
+    }
+
+    #mockupSaved {
+        margin-top: -40%;
+    }
+
+
+    footer {
+        top: -75em;
+    }
+}
